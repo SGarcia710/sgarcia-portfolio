@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+  .header {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .header__menu {
+    margin-top: 15px;
+  }
+  .hero {
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .hero__photo {
+    margin-top: 35px;
+    border-radius: 50%;
+    width: 45%;
+    margin-bottom: 10px;
+  }
+  .hero__about-me {
+    text-align: center;
+  }
+  .hero__about-me--info {
+    margin: auto;
+    width: 70%;
+  }
+  .hero__specs {
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__specs__content {
+    margin-right: 25px;
+    width: 80%;
+  }
+  .footer {
+    display: inline;
+    margin: auto;
+  }
+  .footer__rigts {
+    text-align: center;
+  }
+  .footer__media-links {
+    margin-bottom: 15px;
+  }
+  .footer__media-links a,
+  .footer__media-links a:visited {
+    text-decoration: none;
+    color: #54a0ff;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .footer__media-links li {
+    display: inline-block;
+  }
+}

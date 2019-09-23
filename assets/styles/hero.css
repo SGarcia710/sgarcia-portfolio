@@ -1,6 +1,6 @@
 .hero {
   justify-content: center;
-  height: 80%;
+  /* height: 80%; */
   box-sizing: border-box;
   width: 100%;
   display: flex;
@@ -25,7 +25,8 @@
   border-bottom: 5px solid rgb(84, 160, 255);
 }
 .hero__about-me--info {
-  margin: 0;
+  margin: auto;
+  width: 45%;
 }
 .hero__specs {
   margin-top: 25px;

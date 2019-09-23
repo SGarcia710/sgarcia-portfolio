@@ -3,7 +3,8 @@
 #71c7ff */
 .header {
   width: 80%;
-  height: 10%;
+  margin-top: 15px;
+  /* height: 10%; */
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
