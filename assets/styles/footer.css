@@ -5,19 +5,13 @@
   justify-content: space-between;
   box-sizing: border-box;
   align-items: center;
-  /* height: 10%; */
   margin: 0;
   position: absolute;
   bottom: 0;
 }
-.footer__rights {
-}
-.footer__media-links {
-}
 .footer__media-links li {
   display: inline-block;
 }
-
 .footer__media-links a,
 .footer__media-links a:visited {
   text-decoration: none;

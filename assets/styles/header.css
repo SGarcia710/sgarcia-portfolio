@@ -1,10 +1,6 @@
-/* colores
-#95bad2
-#71c7ff */
 .header {
   width: 80%;
   margin-top: 15px;
-  /* height: 10%; */
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
@@ -34,16 +30,13 @@
   margin: 0;
   list-style-type: none;
 }
-
 .header__menu li {
   font-size: 1em;
   padding: 0;
   margin: 0;
   transition: 300ms;
-  /*Display inline*/
   display: inline-block;
 }
-
 .header__menu a {
   text-decoration: none;
   color: white;
@@ -57,7 +50,6 @@
   background-color: #54a0ff;
   border-radius: 5px;
 }
-
 .header__menu a.active {
   background-color: #54a0ff;
   color: black;
