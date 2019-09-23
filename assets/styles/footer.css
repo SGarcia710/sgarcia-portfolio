@@ -1,0 +1,27 @@
+.footer {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  height: 10%;
+  margin: 0;
+}
+.footer__rights {
+}
+.footer__media-links {
+}
+.footer__media-links li {
+  display: inline-block;
+}
+
+.footer__media-links a,
+.footer__media-links a:visited {
+  text-decoration: none;
+  color: #54a0ff;
+  margin-left: 15px;
+}
+.footer__media-links li.mail > a {
+  color: rgb(255, 211, 0);
+}

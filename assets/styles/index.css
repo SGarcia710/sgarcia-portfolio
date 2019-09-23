@@ -1,0 +1,122 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: 'Circular Std', sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url('https://uploads-ssl.webflow.com/5b10d84d88108327e480a8a5/5bbbaa5d96fa787873d784c3_CircularStd-Book.otf')
+    format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circular Std';
+  src: url('https://uploads-ssl.webflow.com/5b10d84d88108327e480a8a5/5bbbaa5d3136846fdd62187c_CircularStd-Bold.otf')
+    format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circular Std';
+  src: url('https://uploads-ssl.webflow.com/5b10d84d88108327e480a8a5/5bbbaa5ddcca693d0ca8b6fa_CircularStd-Medium.otf')
+    format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Graphik-Bold';
+  src: url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Bold.otf')
+      format('opentype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Bold.woff')
+      format('woff'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Bold.ttf')
+      format('truetype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Bold.svg#Graphik-Bold')
+      format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Graphik-Medium';
+  src: url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Medium.otf')
+      format('opentype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Medium.woff')
+      format('woff'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Medium.ttf')
+      format('truetype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Medium.svg#Graphik-Medium')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Graphik-Regular';
+  src: url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Graphik-Regular.otf')
+      format('opentype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Regular.woff')
+      format('woff'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Regular.ttf')
+      format('truetype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/Graphik-Regular.svg#Graphik-Regular')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GTPressuraMono';
+  src: url('http://justmckissick.com/wp-content/uploads/2019/04/GTPressuraMono.eot?#iefix')
+      format('embedded-opentype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/GTPressuraMono.otf')
+      format('opentype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/GTPressuraMono.woff')
+      format('woff'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/GTPressuraMono.ttf')
+      format('truetype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/GTPressuraMono.svg#GTPressuraMono')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceMono-Bold';
+  src: url('http://justmckissick.com/wp-content/uploads/2019/04/SpaceMono-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/SpaceMono-Bold.woff')
+      format('woff'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/SpaceMono-Bold.ttf')
+      format('truetype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/SpaceMono-Bold.svg#SpaceMono-Bold')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SpaceMono-Regular';
+  src: url('http://justmckissick.com/wp-content/uploads/2019/04/SpaceMono-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/SpaceMono-Regular.woff')
+      format('woff'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/SpaceMono-Regular.ttf')
+      format('truetype'),
+    url('http://justmckissick.com/wp-content/uploads/2019/04/SpaceMono-Regular.svg#SpaceMono-Regular')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

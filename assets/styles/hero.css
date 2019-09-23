@@ -1,0 +1,78 @@
+.hero {
+  justify-content: center;
+  height: 80%;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero__photo {
+  /* box-shadow: 10px 10px 0px 0px rgb(84, 160, 255, 0.8); */
+  border-radius: 50%;
+  width: 8%;
+  margin-bottom: 10px;
+}
+.hero__about-me {
+  text-align: center;
+}
+.hero__about-me--hello {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 25px;
+  border-bottom: 5px solid rgb(84, 160, 255);
+}
+.hero__about-me--info {
+  margin: 0;
+}
+.hero__specs {
+  margin-top: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+}
+.hero__specs__content {
+  margin-right: 25px;
+  width: 20%;
+}
+.hero__specs__content li,
+.hero__specs__content p,
+.hero__specs__content span {
+  font-size: 0.9em;
+}
+.hero__specs__content--title {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #54a0ff;
+}
+.hero__specs__content--subtitle {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.hero__specs__content__list {
+  list-style: none;
+  padding-left: 0;
+}
+.hero__specs__content__list span {
+  color: #666666;
+}
+
+.hero__specs__content__list.skills {
+  margin: 0;
+  padding: 0;
+}
+.hero__specs__content__list.skills li {
+  margin: 0 10px 15px 0;
+  padding: 0;
+  color: #666666;
+  display: inline-block;
+}
+.hero__specs__content .cv,
+.hero__specs__content .cv:visited {
+  color: white;
+  text-decoration: underline;
+  font-size: 0.9em;
+}

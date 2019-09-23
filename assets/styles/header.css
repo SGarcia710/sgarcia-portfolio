@@ -1,0 +1,65 @@
+/* colores
+#95bad2
+#71c7ff */
+.header {
+  width: 80%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+.header__logo {
+  text-transform: uppercase;
+  border: 3px solid white;
+  margin: 0 0 0 15px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 8px 8px 5px 8px;
+  color: white;
+  transition: 300ms;
+}
+.header__logo:hover {
+  border-color: #54a0ff;
+  color: #54a0ff;
+}
+.header__menu {
+  margin-right: 5px;
+}
+.header__menu ul {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.header__menu li {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  transition: 300ms;
+  /*Display inline*/
+  display: inline-block;
+}
+
+.header__menu a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  transition: 400ms;
+  display: block;
+}
+.header__menu a:hover {
+  color: black;
+  background-color: #54a0ff;
+  border-radius: 5px;
+}
+
+.header__menu a.active {
+  background-color: #54a0ff;
+  color: black;
+  border-radius: 5px;
+  cursor: default;
+}
