@@ -44,11 +44,13 @@
   .footer {
     display: inline;
     margin: auto;
+    position: initial;
   }
   .footer__rigts {
     text-align: center;
   }
   .footer__media-links {
+    margin: auto;
     margin-bottom: 15px;
   }
   .footer__media-links a,

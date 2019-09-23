@@ -7,6 +7,8 @@
   align-items: center;
   /* height: 10%; */
   margin: 0;
+  position: absolute;
+  bottom: 0;
 }
 .footer__rights {
 }
