@@ -1,4 +1,7 @@
 @media only screen and (max-width: 600px) {
+  body{
+    display: inline;
+  }
   .header {
     margin-top: 15px;
     width: 100%;
@@ -45,22 +48,25 @@
     display: inline;
     margin: auto;
     position: initial;
+    margin-bottom:15px;
+    justify-content: center
   }
   .footer__rigts {
     text-align: center;
   }
   .footer__media-links {
     margin: auto;
-    margin-bottom: 15px;
   }
   .footer__media-links a,
   .footer__media-links a:visited {
     text-decoration: none;
     color: #54a0ff;
+    text-align: center;
     margin-left: 10px;
     font-size: 12px;
   }
   .footer__media-links li {
     display: inline-block;
+    text-align: center;
   }
 }
